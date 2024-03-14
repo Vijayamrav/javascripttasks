@@ -1,0 +1,77 @@
+JavaScript var keyword
+
+ It has the Global scoped or function scoped which means variables defined outside the function can be accessed globally, and variables defined inside a particular function can be accessed within the function.
+
+example:
+   var a=10;
+   function display(){
+     var b=20;
+     console.log(a); //10
+     console.log(b); //20
+    }
+  display(); // 10 20
+ console.log(a);// 10
+ console.log(b);// b is not defined
+
+output:
+10
+20
+10
+RefernceError:b is not defined
+
+
+
+Javascript let keyword
+
+ let keyword is introduced in ES6(ECMASCRIPT6) 
+These variables has the block scope. It can’t be accessible outside the particular code block ({block}).
+
+example:
+ let a=23;
+ function display(){
+  let b=20;
+   console.log(a);
+   console.log(b);
+}
+ display();
+console.log(a);
+console.log(b); // b is not defined
+
+output:
+23
+20
+23
+ReferenceError:b is not defined
+
+
+JavaScript const keyword
+
+The const keyword has all the properties that are the same as the let keyword, except the user cannot update it and have to assign it with a value at the time of declaration. These variables also have the block scope. It is mainly used to create constant variables whose values can not be changed once they are initialized with a value.
+
+example:
+ const a=10;
+console.log(a);
+ function display(){
+   a=20;
+ console.log(a);
+}
+display();
+
+output:
+TypeError:Assignment to constant variable.
+
+
+                    var   let   const
+re-initilization:   yes   no      no
+
+re-assigning:       yes   yes    no
+
+re-declare:         yes   no     no
+
+
+
+
+
+
+
+
