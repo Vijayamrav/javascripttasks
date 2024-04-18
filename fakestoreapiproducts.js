@@ -207,7 +207,7 @@ let products=[
   },
 ];
 for(i=0;i<products.length;i++){
-    if(products[i].rating.rate>4.7){
+    if(products[i].rating.rate>4.7){ // to check if rate in rating object is >>4.7 
         console.log(products[i].title);
     }
 }

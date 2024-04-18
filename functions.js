@@ -13,3 +13,5 @@ var naturalnumbers=(n)=>{
     }
 }
 console.log(naturalnumbers(100));
+
+function highorder

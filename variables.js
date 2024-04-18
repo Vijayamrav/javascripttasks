@@ -19,11 +19,15 @@
 // console.log(a);
 // console.log(b);
 
-const a=10;
-console.log(a);
-function display(){
-  a=20;
-console.log(a);
-}
-display();
+// const a=10;
 // console.log(a);
+// function display(){
+//   a=20;
+// console.log(a);
+// }
+// display();
+// console.log(a);
+debugger;
+console.log(a);
+var a=10;
+
